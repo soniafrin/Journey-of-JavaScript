@@ -51,11 +51,11 @@
 
 
 // ******SLICE****////
-let slicess = [77, 93, 27, 23, 73, 12, 74, 94, 73, 65, 93];
+// let slicess = [77, 93, 27, 23, 73, 12, 74, 94, 73, 65, 93];
 
-// console.log(slicess.slice(7, 10));
-slicess.splice(1, 3)
-console.log(slicess);
+// // console.log(slicess.slice(7, 10));
+// slicess.splice(1, 3)
+// console.log(slicess);
 
 //******JOIN****////
 // let joinElements = ["ami", "tumii", "se", "tara", "amora"];
@@ -64,5 +64,12 @@ console.log(slicess);
 // joinElements.join();
 // console.log(joinElements.join());
 
+let data = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
+
+console.log(data[2][1]);
 
 

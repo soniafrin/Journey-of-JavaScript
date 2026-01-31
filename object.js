@@ -8,10 +8,13 @@ city: 'Example City',
 isStudent: true
 };
 
+console.log(myObject.citi);
 
-for (let key in myObject){
-    console.log(key, myObject[key],":" , typeof myObject[key]);
-}
+
+// for (let key in myObject){
+//     console.log(key, myObject[key],":" , typeof myObject[key]);
+// }
+
 
 // Count the number of properties.
 // let student = {
