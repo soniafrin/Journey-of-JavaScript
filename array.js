@@ -64,12 +64,24 @@
 // joinElements.join();
 // console.log(joinElements.join());
 
-let data = [
-  [1, 2],
-  [3, 4],
-  [5, 6]
-];
+// let data = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6]
+// ];
 
-console.log(data[2][1]);
+// console.log(data[2][1]);
 
 
+// let fruits = [1, 2, 3];
+// let result = fruits.map(fruit => {
+//   return "B" + fruit;
+
+// });
+// console.log(result);
+
+let nums = [12, 45, 50, 48, 30, 59];
+let result = nums.filter(num => {
+  return num >= 50;
+});
+console.log(result);
