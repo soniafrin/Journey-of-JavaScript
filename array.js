@@ -80,8 +80,10 @@
 // });
 // console.log(result);
 
-let nums = [12, 45, 50, 48, 30, 59];
-let result = nums.filter(num => {
-  return num >= 50;
-});
-console.log(result);
+// let nums = [12, 45, 50, 48, 30, 59];
+// let result = nums.filter(num => {
+//   return num >= 50;
+// });
+// console.log(result);
+
+console.log(typeof );
