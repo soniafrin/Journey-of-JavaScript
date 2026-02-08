@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+</head>
+<body>
+    <header>
+        <h1>Exploring Event Handler</h1>
+    </header>
+    <main>
+        <!--// There are 5-6 typs of Event Handler-->
+
+        <!--//Type:1 Fokira-->
+        <button onclick="console.log('oh yeah! i got clicked')">Click me</button>
+
+        <br>
+        <!--//Type:2 With Onclick and call function-->
+        <button id="btn-make-green" onclick="makeGreen()">Make Green</button>
+        <button id="call-function" onclick="call_function()">call function</button>
+
+        <br>
+        <!--//Type:3 With Onclick and set function-->
+        <button id="btn-with-set-fuction">set function</button>
+        <button id="set-function2">set function 2</button>
+
+        <!--//Type:4 With ID and write function-->
+        <p id="change-text">I am a text</p>
+        <button id="btn-change-text">Change text</button>
+        <button id="id-and-write-function">Id & function</button>
+
+        <br>
+        <!--//Type:5 With addEventListener-->
+        <button id="btn-make-yellow">make yellow</button>
+        <button id="add-event-listener">add event listener</button>
+    </main>
+    
+    <script>
+        const add_event_listener = document.getElementById("add-event-listener").addEventListener("click", function addEventListener(){
+            document.body.style.backgroundColor = "gray"
+        })
+
+    </script>
+    <script src="eventHandler.js"></script>
+</body>
+</html>
