@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hello DOM (Document Object Model)</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, sequi vero? Illo voluptates vero enim porro incidunt, sint rerum eos ut autem saepe quod commodi et amet. Alias, odio? Pariatur.</p>
+    </header>
+    <main id="main_container">
+        <section>
+            <h2>Lorem ipsum dolor sit amet</h2>
+        <ul>
+            <li>i am a list 1 </li>
+            <li>i am a list 2 </li>
+            <li>i am a list 3 </li>
+            <li>i am a list 4 </li>
+            <li>i am a list 5 </li>
+        </ul>
+        </section>
+        <section id="fruit_container">
+            <h2 id="fruits_title" class="class class2 class3">we are Fruits</h2>
+            <ul >
+            <li>apple </li>
+            <li>banana </li>
+            <li>kiwi </li>
+            <li>tangerin </li>
+            <li>grapes </li>
+        </ul>
+        </section>
+        <section>
+            <h2 id="place_title">Places I would Visit</h2>
+        <ul id="places_list">
+            <li class="first_three">Spain</li>
+            <li >Italy </li>
+            <li >Malta </li>
+            <li>Luxemburg </li>
+            <li>Australia </li>
+        </ul>
+        
+
+        </section>
+    </main>
+
+    <script>
+        const listCollection = document.getElementsByTagName("li");
+        console.log(listCollection)
+        for(let li of listCollection){
+            console.log(li.innerText);
+        }
+        const student = {
+            name: "pad",
+            age: 23,
+            id: 947
+        }
+    </script>
+    <script src="domappend.js"></script>
+</body>
+</html>
