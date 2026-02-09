@@ -33,3 +33,7 @@ const make_yellow = document.getElementById("btn-make-yellow").addEventListener(
             document.body.style.backgroundColor = "yellow"
 
         })
+
+        const add_event_listener = document.getElementById("add-event-listener").addEventListener("click", function addEventListener(){
+            document.body.style.backgroundColor = "gray"
+        })
